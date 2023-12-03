@@ -11,6 +11,12 @@
     width: 80%;
     margin: 0 auto;
 }
+@media (min-width:1024px) {
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 .logoCon{
     display: flex;
     justify-content: space-between;
@@ -20,9 +26,50 @@
 .widthBox{
     width: 20%;
 }
+.desktop{
+    display: none;
+}
+@media (min-width:1024px) {
+    .widthBox{
+        width: 8%;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    .about{
+        text-decoration: none;
+        color: white;
+        padding:0 1em;
+    }
+    .downloadcv{
+        text-decoration: none;
+        color: black;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 1em;
+        padding: 0 1em;
+        font-weight: 500;
+    }
+    .desktopflex{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
 .image1{
     width: 70%;
     margin: 0 auto;
+}
+@media (min-width:1024px) {
+    .image1{
+        width: 40%;
+    }
+    .wholetextCon{
+        width: 80%;
+    }
 }
 .textCon{
     color: white;
@@ -55,9 +102,28 @@
     padding: 0 1em;
     font-size: 0.7em;
 }
+@media (min-width:1024px) {
+    .numberTwo{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2em;
+        align-items: center;
+    }
+    .wholetextCon2{
+        width: 55%;
+        
+    }
+    
+}
 .image2{
     width: 60%;
     margin: 0 auto;
+}
+@media (min-width:1024px) {
+    .image2{
+        width: 40%;
+        margin: 0;
+    }
 }
 .textBox{
     color: white;
@@ -100,6 +166,11 @@
     border-radius: 1em;
     margin-top: 0.5em;
 }
+@media (min-width:1024px) {
+    .bordersolid{
+        padding: 1em 0;
+    }
+}
 .innerwidth{
     width: 85%;
     margin: 0 auto;
@@ -109,10 +180,20 @@
     width: 30%;
     padding-top: 0.8em;
 }
+@media (min-width:1024px) {
+    .upwork{
+        width: 15%;
+    }
+}
 .present{
     padding-bottom: 0.5em;
     font-size: 0.8em;
     padding-top: 0.5em;
+}
+@media (min-width:1024px) {
+    .present{
+        font-size: 1em;
+    }
 }
 .developer{
     font-weight: 500;
@@ -126,9 +207,20 @@
 .earl{
     padding-bottom: 2em;
 }
+@media (min-width:1024px) {
+    .earl{
+        display: flex;
+    }
+}
 .experience1{
     width: 100%;
     margin: 0 auto;
+}
+@media (min-width:1024px) {
+    .experience1{
+        width: 50%;
+        margin: 0;
+    }
 }
 .thirdColor{
     background-color: #111827;
@@ -136,6 +228,13 @@
     color: white;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
+}
+@media (min-width:1024px) {
+    .thirdColor{
+        width: 50%;
+        border-radius: 0;
+        border-top-left-radius: 1em;
+    }
 }
 .widthCon{
     width: 80%;
@@ -166,6 +265,11 @@
     border-radius: 1em;
     margin-bottom: 1em;
 }
+@media (min-width:1024px) {
+    .forthCon{
+        width: 30%;
+    }
+}
 .earl2{
     width: 80%;
     margin: 0 auto;
@@ -191,15 +295,34 @@
     font-size: 0.9em;
     padding-bottom: 1em;
 }
+@media (min-width:1024px) {
+    .fifthCon{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.1em;
+    }
+}
 .flexcon2{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+@media (min-width:1024px) {
+    .flexcon2{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
 .reachsagar{
     color: white;
     font-size: 0.9em;
     font-weight: 500;
+}
+@media (min-width:1024px) {
+    .reachsagar{
+        font-size: 1.4em;
+        padding-bottom: 1em;
+    }
 }
 .flexcon3{
     display: flex;
@@ -208,10 +331,50 @@
     margin: 0 auto;
     margin-top: -1em;
 }
+@media (min-width:1024px) {
+    .flexcon3{
+        width: 10%;
+        margin: 0 auto;
+    }
+}
 .flexcon4{
     color: white;
     font-size: 0.7em;
     display: flex;
     padding: 1em 0;
     gap: 0.5em;
+}
+@media (min-width:1024px) {
+    .languagesdesktop{
+       display: flex;
+       flex-direction: column;
+       padding: 2em 0;
+    }
+    .oneBox{
+        display: flex;
+        justify-content: space-between;
+    }
+    .desktopflex2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .centerone{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: -2em;
+    }
+    .flexcon4{
+        width: 45%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+    .fifthCon{
+        padding-top: 2em;
+    }
+    .lastflexCon{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2em;
+    }
 }
