@@ -94,6 +94,35 @@
     font-size: 0.9em;
     padding-bottom: 2em;
 }
+.bordersolid{
+    border: 2px solid #1f2937;
+    background-color: #1f2937;
+    border-radius: 1em;
+    margin-top: 0.5em;
+}
+.innerwidth{
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+}
+.upwork{
+    width: 30%;
+    padding-top: 0.8em;
+}
+.present{
+    padding-bottom: 0.5em;
+    font-size: 0.8em;
+    padding-top: 0.5em;
+}
+.developer{
+    font-weight: 500;
+}
+.lorem2{
+    padding-left: 1em;
+    font-size: 0.9em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 .earl{
     padding-bottom: 2em;
 }
@@ -129,6 +158,60 @@
     gap: 1em;
     padding-bottom: 0.5em;
 }
-.fourthCon{
-    
+.forthCon{
+    color: white;
+    border: 2px solid #1f2937;
+    font-size: 0.85em;
+    background-color: #1f2937;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.earl2{
+    width: 80%;
+    margin: 0 auto;
+}
+.doe{
+    width: 20%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.johndoe{
+    text-align: center;
+    padding: 1em 0;
+}
+.twoCon{
+    margin-top: -1em;
+    padding-bottom: 2em;
+}
+.fifthCon{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 1em;
+}
+.flexcon2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reachsagar{
+    color: white;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.flexcon3{
+    display: flex;
+    gap: 0.5em;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -1em;
+}
+.flexcon4{
+    color: white;
+    font-size: 0.7em;
+    display: flex;
+    padding: 1em 0;
+    gap: 0.5em;
 }
